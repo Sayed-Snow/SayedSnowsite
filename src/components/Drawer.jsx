@@ -13,7 +13,7 @@ const Drawer = () => {
 
         <HamburgerMenu isOpen={isOpen} handleClick={handleOpenClose}/>
       <div
-        className={`fixed top-0 ease-out duration-500 ${isOpen ? 'right-0' : '-right-full'} w-1/3 h-screen bg-white shadow-xl overflow-y-auto`}
+        className={`fixed z-40 top-0 ease-out duration-500 ${isOpen ? 'right-0' : '-right-full'} w-1/3 h-screen bg-white shadow-xl overflow-y-auto`}
       >
         <div className="p-4">
           <h2 className="text-xl font-bold mb-4">Drawer Content</h2>
