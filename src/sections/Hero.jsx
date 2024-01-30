@@ -1,11 +1,11 @@
 import React from 'react'
-import { background, something } from '../assets'
+import { background, something, wierd } from '../assets'
 import Background from '../components/Background'
 
 const Hero = () => {
   return (
-    <section className=' bg-[#f2ede6] pb-44'>
-          <div className="bg-[#f2ede6]  px-6 py-12 text-center font-jost md:px-12 lg:text-left">
+    <section className=' bg-cream pb-44' id='home'>
+          <div className="bg-cream  px-6 py-12 text-center font-jost md:px-12 lg:text-left">
                 <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                     <div className="grid items-center gap-12 lg:grid-cols-2">
                         <div className="mt-12 lg:mt-0">
@@ -27,8 +27,8 @@ const Hero = () => {
                                  href="#!" role="button">SKILLS</a>
                         </div>
                         <div className="mb-12 lg:mb-0 ">
-                            <img src={something}
-                                className="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
+                            <img src={wierd}
+                                className="w-full rounded-full shadow-lg dark:shadow-black/20" alt="" />
                         </div>
 
                     </div>

@@ -1,12 +1,14 @@
 import React from 'react'
 import Heading from '../components/Heading'
 import Background from '../components/Background'
+import PortfolioGrid from '../components/PortfolioGrid'
 
 const Portfolio = () => {
   return (
-    <section className='bg-[#f2ede6] pb-44 '>
-        <Heading top={'Portfolio'} end={'Cases'}/>
-        <Background section={'Portfolio'}/>
+    <section className='bg-cream pb-44 ' id='works'>
+        <Heading top={'Recent Works'} end={'Cases'}/>
+        <PortfolioGrid/>
+        <Background section={'Works'}/>
     </section>
   )
 }

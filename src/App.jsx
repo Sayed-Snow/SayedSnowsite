@@ -11,10 +11,8 @@ function App() {
     <main  >
       <Hero/>
       <Services/>
-      <Skills/>
       <Portfolio/>
       <Resume/>
-      <Testimonials/>
       <Pricing/>
       <Contact/>
       <Footer/>

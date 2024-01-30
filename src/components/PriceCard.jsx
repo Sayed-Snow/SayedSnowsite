@@ -21,7 +21,7 @@ const PriceCard = ({catergory, title, text, packageList, main=1}) => {
 
     </ul>
       <img src={pattern} className=' absolute w-36 h-36 left-[272px] top-[29rem] pointer-events-none  '/>
-    <button className=' uppercase z-10 relative bg-emerald-600 rounded-full border text-white font-bold border-black p-3 w-full hover:bg-emerald-500'>Start Project</button>      
+    <button className=' uppercase z-10 relative  rounded-full border text-white font-bold border-black p-3 w-full bg-emerald-600 hover:bg-emerald-500'>Start Project</button>      
     </div>
 
   )
